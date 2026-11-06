@@ -1,0 +1,17 @@
+# Каталоги збірки CMake / Visual Studio / VS Code
+build/
+build-*/
+out/
+.vs/
+.vscode/
+
+# Службові файли компілятора (НЕ ігноруємо *.dll та *.lib - вони потрібні в SDK-пакунках!)
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.log
+CMakeCache.txt
+CMakeFiles/
+*.zip
